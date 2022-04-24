@@ -1,0 +1,142 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/VKSansDisplay-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: vkbold;
+    src: url(font/VKSansDisplay-DemiBold.ttf);
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    font-family: myFirstFont;
+
+
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    max-height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+
+}
+
+.left {
+    background: #f9f9f9;
+    padding: 28px;
+    border-bottom: 1px solid #e1e3e6;
+    border-top: 1px solid #e1e3e6;
+    border-left: 1px solid #e1e3e6;
+}
+
+.right {
+   border-bottom: 1px solid #e1e3e6;
+   border-top: 1px solid #e1e3e6;
+   border-right: 1px solid #e1e3e6;
+    padding: 28px;
+    text-align: center;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+
+}
+.icon-position {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.block {
+    color: #99a2ad;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    
+}
+
+.icon-right {
+    width: 48px;
+    height: 48px;
+}
+
+.right p {
+    color: #99a2ad;
+    font-size: 1rem;
+}
+.right h4 {
+    font-size: 1.5rem;
+    margin: 0;
+
+    font-family: myFirstFont;
+    font-weight: 500;
+    color: #000;
+}
+
+.right input {
+    padding: 10px; 
+    width: 90%;
+    border: 1px solid #e1e3e6;
+    background: #f2f3f5;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+
+.right input:focus{
+    border: 1px solid #3f8ae0;
+    outline: #3f8ae0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right > form > button {
+    width: 98%;
+    padding: 8px;
+    background: #4986cc;
+    border: 1px solid #99a2ad;
+    border-radius: 10px;
+    color: #fff;
+    font-weight:600;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    margin-top: 15px;
+    color: #99a2ad;
+    font-size: 0.7rem;
+}
+.right a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #99a2ad;
+    font-size: 0.7rem;
+}
